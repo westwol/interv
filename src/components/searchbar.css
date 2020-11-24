@@ -1,0 +1,14 @@
+.searchbar__input {
+    border: none;
+    color: darkgray;
+    background-color: lightgray;
+    height: 50px;
+    text-indent: 15px;
+    width: 520px;
+    color: #000000;
+}
+
+.searchbar__input:focus {
+    outline: none;
+    color: #000000;
+}

@@ -1,0 +1,27 @@
+.search-results__container {
+    margin-top: 10px;
+}
+
+.search-results__result {
+    padding: 10px;
+    background-color:#AFF9FE;
+    width: 500px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 7px #dfdfdf;
+    line-height: 30px;
+}
+
+.search-results__result-title {
+    font-size: 15px;
+}
+
+.search-results__result-labels {
+    height: 30px;
+}
+
+.search-results__results-label {
+    margin-left: 5px;
+    padding: 2px;
+    font-size: 13px;
+}
