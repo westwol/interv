@@ -12,3 +12,11 @@
     outline: none;
     color: #000000;
 }
+
+@media screen and (max-width: 768px) {
+    .searchbar__input {
+        margin: 5%;
+        width: calc(90%);
+        margin-bottom: 0px;
+    }
+}

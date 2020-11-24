@@ -5,7 +5,7 @@
 .search-results__result {
     padding: 10px;
     background-color:#AFF9FE;
-    width: 500px;
+    width: 520px;
     margin-bottom: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 7px #dfdfdf;
@@ -24,4 +24,11 @@
     margin-left: 5px;
     padding: 2px;
     font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+    .search-results__result {
+        margin: 5%;
+        width: calc(90%);
+    }
 }
